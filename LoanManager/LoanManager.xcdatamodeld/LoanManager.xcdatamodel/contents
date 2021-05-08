@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E232" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Loan" representedClassName="Loan" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="637650000" usesScalarValueType="NO"/>
+        <attribute name="dueDate" attributeType="Date" defaultDateTimeInterval="646722000" usesScalarValueType="NO"/>
+        <attribute name="title" attributeType="String" defaultValueString="Borrower"/>
+        <attribute name="value" attributeType="Float" defaultValueString="100000" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Payment" representedClassName="Payment" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="631173600" usesScalarValueType="NO"/>
+        <attribute name="dueDate" attributeType="Date" defaultDateTimeInterval="645433200" usesScalarValueType="NO"/>
+        <attribute name="title" attributeType="String" defaultValueString="Master"/>
+        <attribute name="value" attributeType="Float" defaultValueString="10000" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Loan" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="Payment" positionX="-63" positionY="9" width="128" height="89"/>
+    </elements>
+</model>
